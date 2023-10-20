@@ -13,8 +13,8 @@ namespace EntityFrameworkCore.Domain
          [Required]
          public decimal Amount { get; set; }
          public DateTime PaymentDate { get; set; }
-         public string UsersId { get; set; }
-         public Users Users { get; set; }
+         public string UserId { get; set; }
+         public User Users { get; set; }
       }
 
  

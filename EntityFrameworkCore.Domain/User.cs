@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace EntityFrameworkCore.Domain
 {
-    public class Users
+    public class User
     {
         public int Id { get; set; }
 

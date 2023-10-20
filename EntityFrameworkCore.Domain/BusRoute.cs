@@ -8,6 +8,7 @@ namespace EntityFrameworkCore.Domain
 {
     public class BusRoute
     {
+        public int Id { get; set; }
         public int BusId { get; set; }
         public virtual Bus Bus { get; set; }
         public int RouteId { get; set; }
